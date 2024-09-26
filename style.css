@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
 :root {
     --cor-principal: #9a9bff;
     --cor-secundaria: #5f8aff;
@@ -16,4 +17,14 @@ body{
 .cabecalho{
     background-color: var(--cor-secundaria);
     text-align: center;
+}
+.cabecalho__titulo{
+    font-size: 2rem;
+    color: var(--cor-texto);
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
 }
