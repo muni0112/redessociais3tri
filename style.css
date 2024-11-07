@@ -1,63 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
-    --cor-principal: #b4b5ff;
-    --cor-secundaria: #cf88ff;
-    --cor-texto: #180158;
-    --cor-de-fundo: #b8dfa2;
-    --font:"Sofadi One", system-ui;
+    --bg-color: #d1adff;
+    --primary-color: #ff6aff;
+    --secondary-color: #45d4ff;
+    --font: "Nunito Sans", sans-serif;
 }
-body{
-    background-color: var(--cor-principal);
-    color: var(--cor-texto);
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
     font-family: var(--font);
     height: 100vh;
     margin: 0;
 }
-.cabecalho{
-    background-color: var(--cor-secundaria);
+
+header {
+    background-color: var(--primary-color);
     text-align: center;
+    padding: 1px;
 }
-.cabecalho__titulo{
+
+h1 {
     font-size: 2rem;
-    color: var(--cor-texto);
+    color: var(--bg-color);
     font-weight: 700;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: center;
     font-weight: 400;
 }
+
 nav a {
     text-decoration: none;
-    color: var(--cor-texto);
-    margin: 0 2rem 1rem 0;
+    color: var(--bg-color);
+    margin: 0 2rem 1rem 0rem;
     font-size: 1.2rem;
 }
-nav a:hover{
+nav a:hover {
     text-decoration: underline;
     transform: scale(0.90);
     transition: transform 0.1s;
 }
-.graficos-container{
+
+.graficos-container {
     margin: 5rem;
 }
-.graficos-container_texto{
+
+.graficos-container__texto {
     font-size: 1.3rem;
     text-align: center;
     padding: 2rem;
-    border: var(--cor-secundaria) solid 2px;
+    border: var(--secondary-color) solid 2px;
 }
+
 span {
     font-weight: bold;
-    color: var(--cor-secundaria);
+    color: var(--secondary-color);
 }
-footer{
+
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--cor-secundaria);
-    color: var(--cor-texto);
+    background-color: var(--primary-color);
+    color: var(--bg-color);
     width: 100%;
     height: 3rem;
     margin-top: 2rem;
